@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/../shared.php';catalogView('client','Clientes','Consulta y administra tus clientes.',['name'=>'Nombre completo','phone'=>'Teléfono','email'=>'Correo electrónico']); ?>

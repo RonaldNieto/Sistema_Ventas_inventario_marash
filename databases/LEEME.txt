@@ -1,0 +1,17 @@
+MARASH - MySQL 8.0.44 / HeidiSQL
+
+Orden:
+1. marash.sql
+2. ACTUALIZACION_TIENDA.sql
+3. ACTUALIZACION_ROLES.sql
+
+La tabla products contiene el stock real. sales registra cabeceras de venta,
+sale_items sus articulos y stock_movements los movimientos.
+Los archivos SQL NO descuentan stock por si solos: el codigo PHP de venta debe
+actualizar products.stock y registrar stock_movements en una transaccion.
+
+El administrador NO se crea automaticamente: hay que crearlo con PHP y
+password_hash() usando una conexion MySQL comprobada.
+
+No ejecutar sobre una base con tablas antiguas incompatibles sin respaldo.
+No se ha realizado prueba real contra el servidor MySQL del usuario.

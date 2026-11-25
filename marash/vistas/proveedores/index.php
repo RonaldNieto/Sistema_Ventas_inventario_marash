@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/../componentes.php';catalogView('supplier','Proveedores','Mantén actualizados tus contactos comerciales.',['name'=>'Nombre','phone'=>'Teléfono','email'=>'Correo electrónico']); ?>

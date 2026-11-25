@@ -1,0 +1,23 @@
+# Configuración privada
+backend/config/local.php
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+crear_admin.php
+probar_conexion.php
+
+# Archivos de respaldo
+*.bak
+*.sql.gz
+*.zip
+
+# Dependencias
+vendor/
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+databasesss/
